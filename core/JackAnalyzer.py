@@ -46,11 +46,7 @@ class jackTokenizer:
 
 
         
-    def hasMoreTokens(self):
-        if len(self.tokens) != 0:
-            return True
-        return False
-
+    
     def advance(self):
         if self.hasMoreTokens():
             self.token =self.tokens[0]                
